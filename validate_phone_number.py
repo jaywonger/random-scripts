@@ -7,7 +7,7 @@ url = "https://api.apilayer.com/number_verification/validate?number="+ phone_num
 
 payload = {}
 headers= {
-  "apikey": "Qzls9F04tJDZuvtE70QQOcV8ysZI0Ebr"
+  "apikey": ""
 }
 
 response = requests.request("GET", url, headers=headers, data = payload)
